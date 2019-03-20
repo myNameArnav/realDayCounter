@@ -1,10 +1,5 @@
 #!/usr/bin/env python
-
-from main import *
-
-
-
-def realdays(data):
+def realdayscalc(data):
     if dory == "days":
         years = data / 365  # days into years
         leapdays = years * 0.25  # how many leap days
