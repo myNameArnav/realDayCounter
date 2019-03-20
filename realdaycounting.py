@@ -18,6 +18,7 @@ def realdays(data):
         noh = ((nod % 1) * 24)  # number of hours
         nomin = ((nod % 1) * 60)  # number of minutes
         print("Number of days : ", data)
+        print("Number of years: ", years)
     elif dory == "years":
         nod = data * 365
         leapdays = data * 0.25
@@ -31,10 +32,12 @@ def realdays(data):
         noh = ((nod % 1) * 24)
         nomin = ((nod % 1) * 60)
         print("Number of years: ", data)
+        print("Number of days: ", nod)
     print("Number of days accounting for leap year : ", round(totalnod, 2))
     print("Number of more days :", round(mdays, 2))
     print("Number of years accounting for leap year : ", round(lnoy, 2))
     print("Actual time of", round(data, 0), "days :", round(nooy, 0), "year &", round(nom, 0),
           "months &", round(nod, 0), "days &", round(noh, 0), "hours &", round(nomin, 1), "minutes")
 
-#print("Note: This is not fully accurate as the days of the months are not taken in consideration")
+
+print("Note: This is not fully accurate as the days of the months are not taken in consideration")
