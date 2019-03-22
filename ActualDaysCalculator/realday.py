@@ -33,4 +33,5 @@ def realdayscalc(data):
     print("Actual time of", round(data, 0), "days :", round(nooy, 0), "year &", round(nom, 0),
           "months &", round(nod, 0), "days &", round(noh, 0), "hours &", round(nomin, 1), "minutes")
 
+
 print("Note: This is not fully accurate as the days of the months are not taken in consideration")

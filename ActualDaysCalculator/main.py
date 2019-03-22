@@ -4,7 +4,7 @@ from realday import realdayscalc
 
 print("You want to enter the Data in days or years?")
 dory == input()
-print ("how many?")
+print("how many?")
 data = input()
 '''
 if dory == "days":
