@@ -1,4 +1,4 @@
-RealDayCounter.
+<h1> RealDayCounter. </h1>
 
 Are the Days you count accurate?
 
