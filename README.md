@@ -10,6 +10,4 @@ So normally people just multiply the number of years with 365 to get the number 
 
 For Example, You take 20,000 days and multiply with 365 you'll get 73,00,000 but you don't account for the leap hours or the extra hours, that's what this small program will do.
 
-Just building on that I made this in a couple of days. (I am a beginner, it took time).
-
-It is not ready yet but I am open to suggestions and improvements.
+Just building on that I made this in a couple of days :)
