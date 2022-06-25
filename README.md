@@ -10,4 +10,4 @@ How to run
     - Example ```python main.py day 2000```
 3. Use ```help``` for help
 
-Also, if you want to know the thought behind this project you can read ...
+Also, if you want to know the thought behind this project you can read [thoughtBehindMakingIt](https://github.com/myNameArnav/RealDayCounter/blob/master/thoughtBehindMakingIt.md)
