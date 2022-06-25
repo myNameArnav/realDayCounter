@@ -36,8 +36,8 @@ elif period == "plot":
     plt.plot(actualTime, linear, label="Actual Time")
     plt.plot(leapTime, linear, label="Leap Time")
     plt.plot(diff, linear, label="Difference")
-    plt.xlabel("Time")
-    plt.ylabel("Time")
+    plt.xlabel("actualTIme and leapTime")
+    plt.ylabel("Number of Days")
     plt.legend()
     plt.show()
 elif period == "help":
@@ -47,5 +47,6 @@ elif period == "help":
         "\n"
         "day <number>: for specifying the number of day\n"
         "year <number>: for specifying number of years\n"
+        "plot <number>: for plotting, in number of days\n"
         "help: you are here\n"
     )
