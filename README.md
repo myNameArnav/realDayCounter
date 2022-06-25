@@ -11,3 +11,5 @@ How to run
 3. Use ```help``` for help
 
 Also, if you want to know the thought behind this project you can read [thoughtBehindMakingIt](https://github.com/myNameArnav/RealDayCounter/blob/master/thoughtBehindMakingIt.md)
+
+For results, check out [results.md](https://github.com/myNameArnav/RealDayCounter/blob/master/results.md)
