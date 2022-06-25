@@ -13,14 +13,14 @@ if period == "day":
     print(
         f"The actual days will be {time}, but adding the leap time it will be {leapTime}"
     )
-    print(f"There will be a diffrence of {leapTime - time}")
+    print(f"There will be a difference of {leapTime - time}")
 elif period == "year":
     years2Hour = time * 365 * 24
     leapTime = round(((years2Hour + (years2Hour * forEveryHour)) / (365 * 24)), 2)
     print(
         f"The actual years will be {time}, but adding the leap time it will be {leapTime}"
     )
-    print(f"There will be a diffrence of {leapTime - time}")
+    print(f"There will be a difference of {leapTime - time}")
 elif period == "plot":
     import matplotlib.pyplot as plt
 
@@ -36,7 +36,7 @@ elif period == "plot":
     plt.plot(actualTime, linear, label="Actual Time")
     plt.plot(leapTime, linear, label="Leap Time")
     plt.plot(diff, linear, label="Difference")
-    plt.xlabel("actualTIme and leapTime")
+    plt.xlabel("actualTime and leapTime")
     plt.ylabel("Number of Days")
     plt.legend()
     plt.show()

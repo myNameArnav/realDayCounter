@@ -6,4 +6,4 @@ What does it do:
 
 So normally people just multiply the number of years with 365 to get the number of days but that's wrong they don't account leap years which does not make a whole lot of difference when there are a small number of days, but a large number the answer would differ slightly
 
-For Example, You take 20,000 days and multiply with 365 you'll get 73,00,000 but you don't account for the leap hours or the extra hours, that's what this small program will do.
+For Example, You take 20,000 days and multiply with 365 you'll get 73,00,000 but you don't account for the leap hours or the extra hours, that's what this small program will do
